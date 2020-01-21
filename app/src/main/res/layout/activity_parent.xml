@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_artist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="20"
+    >
+
+    <Button
+        android:id="@+id/AllHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AllHistory"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/ShowMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ShowMap"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/ShowInstallApps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Install Apps"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/ShowRunApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Runing App"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/ShowCallLogs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Logs"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/predictNextLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next Location"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/currentposition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Current Situation"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/selectdangerlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Danger Location"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+</LinearLayout>

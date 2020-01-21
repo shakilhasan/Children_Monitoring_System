@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "123597392260",
+    "firebase_url": "https://cuetfirebase.firebaseio.com",
+    "project_id": "cuetfirebase",
+    "storage_bucket": "cuetfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123597392260:android:6cc9fd61361d7abb",
+        "android_client_info": {
+          "package_name": "com.example.authapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123597392260-7gvohppneiprsviu70in3b0ahbuvcv72.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.authapplication",
+            "certificate_hash": "cef0969c9e49010fa9410fa4e87c0487ecfedc25"
+          }
+        },
+        {
+          "client_id": "123597392260-9ftsgnc90ap0fr7fec6a81s6egn6is75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO2arTb9TFBrbowcMWqi69lsOaej2RdfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123597392260-9ftsgnc90ap0fr7fec6a81s6egn6is75.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

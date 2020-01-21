@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:id="@+id/textViewLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="Please Select A type"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="7dp"
+                android:background="@drawable/rounded_button_transparent"
+                android:backgroundTint="@color/colorAccent"
+                android:text="parent"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/children"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="7dp"
+                android:background="@drawable/rounded_button_transparent"
+                android:backgroundTint="@color/colorAccent"
+                android:text="children"
+                android:textAllCaps="false"
+                android:onClick="startService"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                />
+
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
